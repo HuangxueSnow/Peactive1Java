@@ -44,7 +44,7 @@ public class Peactice1Java {
             sum = sum+c[i];
             }
         System.out.println("sum=" + sum);
-        int avg = sum/c.length;
+        double avg = (double)sum/(double)c.length;
         System.out.println("avg=" + avg);
         
     }
